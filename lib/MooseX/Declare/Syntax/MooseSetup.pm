@@ -139,7 +139,7 @@ the L<preamble|MooseX::Declare::Context/preamble_code_parts>.
 
 Then it will add a code part that will immutabilize the class to the
 L<cleanup|MooseX::Declare::Context/cleanup_code_parts> code if the
-L</auto_make_immutable> method returned a true value and C<$options->{is}{mutable}>
+L</auto_make_immutable> method returned a true value and C<< $options->{is}{mutable} >>
 does not exist.
 
 =cut

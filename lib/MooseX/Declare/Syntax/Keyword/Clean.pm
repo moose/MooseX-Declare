@@ -39,7 +39,7 @@ sub find_namespace_handler {
 
   Object->parse(Object $context)
 
-This will inject a call to L<namespace::clean> C<-except => 'meta'> into
+This will inject a call to L<namespace::clean> C<< -except => 'meta' >> into
 the code at the position of the keyword.
 
 =cut

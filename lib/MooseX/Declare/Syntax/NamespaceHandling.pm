@@ -181,7 +181,7 @@ sub generate_current_stack_item {
 This is the main handling routine for namespaces. It will remove the namespace
 name and its options. If the handler was invoked without a name, options or
 a following block, it is assumed that this is an instance of an autoquoted
-bareword like C<class => "Foo">.
+bareword like C<< class => "Foo" >>.
 
 The return value of the C<parse> method is also the value that is returned
 to the user of the keyword.

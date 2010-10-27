@@ -1,4 +1,6 @@
   * Depend on 'aliased'.
+  * The test suite now uses Test::Fatal instead of Test::Exception. (Karen
+    Etheridge)
 
 0.35  Tue, 23 Aug 2011 13:13:10 +0200
   * Adapt to changes in MooseX::Role::Parameterized 0.27.

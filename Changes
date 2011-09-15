@@ -28,7 +28,7 @@ Revision history for {{$dist->name}}
   - Adapt to changes in MooseX::Role::Parameterized 0.27.
 
 0.34   2010-08-31 23:10:28Z
-  - Depend on MooseX::MooseX::Signatures 0.36 to avoid deprecation warnings on
+  * Depend on MooseX::Method::Signatures 0.36 to avoid deprecation warnings on
     new versions of Moose (Jeremy Carman).
 
 0.33   2010-02-04 01:50:14Z

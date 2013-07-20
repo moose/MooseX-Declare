@@ -73,7 +73,7 @@ sub import_symbols_from { 'Moose' }
 
   ArrayRef default_inner ()
 
-This will provide the following default inner-handlers to the namspace:
+This will provide the following default inner-handlers to the namespace:
 
 =for :list
 * method

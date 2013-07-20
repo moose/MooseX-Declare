@@ -36,7 +36,7 @@ method object via the C<< $metaclass->add_method >> method.
   );
 
 This will mean that the signature C<(Str $foo)> will become
-C<CodeRef $orig: Object $self, Str $foo> and and C<()> will become
+C<CodeRef $orig: Object $self, Str $foo> and C<()> will become
 C<CodeRef $orig: Object $self>.
 
 =cut

@@ -15,7 +15,7 @@ This is not a subclass of L<Devel::Declare::Context::Simple>, but it will
 delegate all default methods and extend it with some attributes and methods
 of its own.
 
-A context object will be instanciated for every keyword that is handled by
+A context object will be instantiated for every keyword that is handled by
 L<MooseX::Declare>. If handlers want to communicate with other handlers (for
 example handlers that will only be setup inside a namespace block) it must
 do this via the generated code.

@@ -20,11 +20,11 @@ use namespace::autoclean 0.09;
 
 The C<with> keyword allows you to apply roles to the local class or role. It
 differs from the C<with>-option of the C<class> and C<role> keywords in that it
-applies the roles immediately instead of defering application until the end of
+applies the roles immediately instead of deferring application until the end of
 the class- or role-definition.
 
 It also differs slightly from the C<with> provided by L<Moose|Moose> in that it
-expands relative role names (C<::Foo>) according to the currenc C<namespace>.
+expands relative role names (C<::Foo>) according to the current C<namespace>.
 
 =head1 CONSUMES
 

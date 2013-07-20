@@ -8,7 +8,7 @@ use namespace::clean -except => 'meta';
 =head1 DESCRIPTION
 
 The L<MooseX::Declare::Syntax::NamespaceHandling> role will require that the
-consumer handles the case of non-existant blocks. This role will inject
+consumer handles the case of non-existent blocks. This role will inject
 an empty block with only the generated code parts in it.
 
 =method handle_missing_block

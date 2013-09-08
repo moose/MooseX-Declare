@@ -1,15 +1,3 @@
-.*
+/.build/
 !.gitignore
-Makefile*
-!Makefile.PL
-META.yml
-blib
-build
-inc
-pm_to_blib
-MANIFEST*
-!MANIFEST.SKIP
-Debian*
-README
-MooseX-Declare-*
-cover_db
+/MooseX-Declare-*

@@ -1,3 +1,6 @@
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
   * Depend on 'aliased'.
   * The test suite now uses Test::Fatal instead of Test::Exception. (Karen
     Etheridge)

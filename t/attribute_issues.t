@@ -1,7 +1,7 @@
 use strict;
 use warnings;
-use Test::More tests => 6;
-use Test::NoWarnings;
+use Test::More 0.88;
+use if $ENV{AUTHOR_TESTING}, 'Test::Warnings';
 use Test::Fatal;
 use MooseX::Declare;
 
@@ -34,3 +34,5 @@ is( exception {
        => "default",
        "should be 'default'");
 }, undef, 'optional param');
+
+done_testing;

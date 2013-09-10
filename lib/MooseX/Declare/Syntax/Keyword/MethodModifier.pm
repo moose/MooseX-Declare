@@ -36,7 +36,7 @@ A required string that is one of:
 
 has modifier_type => (
     is          => 'rw',
-    isa         => enum(undef, qw( around after before override augment )),
+    isa         => enum([qw( around after before override augment )]),
     required    => 1,
 );
 

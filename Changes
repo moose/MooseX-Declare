@@ -4,7 +4,7 @@ Revision history for {{$dist->name}}
   * Depend on 'aliased'.
   * The test suite now uses Test::Fatal instead of Test::Exception. (Karen
     Etheridge)
-  * removed use of deprecated Class::MOP::load_class
+  * removed use of deprecated Class::MOP::load_class, calling enum with a list
   * converted use of Class::MOP::class_of to Moose::Util::find_meta
   * new WARNING section added to pod, regarding future utility of this module
 

@@ -6,6 +6,7 @@ Revision history for {{$dist->name}}
     Etheridge)
   * removed use of deprecated Class::MOP::load_class
   * converted use of Class::MOP::class_of to Moose::Util::find_meta
+  * new WARNING section added to pod, regarding future utility of this module
 
 0.35   2011-08-23 13:13:10 +0200
   * Adapt to changes in MooseX::Role::Parameterized 0.27.

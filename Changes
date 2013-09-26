@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.37      2013-09-26 04:08:21Z (Karen Etheridge)
   * repository migrated to the github moose organization
   * re-release with fixed compile test
 

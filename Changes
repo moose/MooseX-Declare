@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - update configure_requires checking in Makefile.PL, add CONTRIBUTING file
 
 0.37      2013-09-26 04:08:21Z
   - repository migrated to the github moose organization

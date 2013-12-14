@@ -38,7 +38,7 @@ MooseX::Declare - Declarative syntax for Moose
 This module provides syntactic sugar for Moose, the postmodern object system
 for Perl 5. When used, it sets up the `class` and `role` keywords.
 
-__Note:__ Please see the ["WARNING"](#WARNING) section below!
+__Note:__ Please see the ["WARNING"](#warning) section below!
 
 # KEYWORDS
 
@@ -50,7 +50,7 @@ __Note:__ Please see the ["WARNING"](#WARNING) section below!
 
 Declares a new class. The class can be either named or anonymous, depending on
 whether or not a classname is given. Within the class definition Moose and
-[MooseX::Method::Signatures](http://search.cpan.org/perldoc?MooseX::Method::Signatures) are set up automatically in addition to the other
+[MooseX::Method::Signatures](https://metacpan.org/pod/MooseX::Method::Signatures) are set up automatically in addition to the other
 keywords described in this document. At the end of the definition the class
 will be made immutable. namespace::autoclean is injected to clean up Moose and
 other imports for you.
@@ -112,9 +112,9 @@ It's possible to specify options for roles:
     override moo ($x, $y, $z) { ... }
     augment  kuh ($x, $y, $z) { ... }
 
-Add a method modifier. Those work like documented in [Moose](http://search.cpan.org/perldoc?Moose), except for
+Add a method modifier. Those work like documented in [Moose](https://metacpan.org/pod/Moose), except for
 the slightly nicer syntax and the method signatures, which work like documented
-in [MooseX::Method::Signatures](http://search.cpan.org/perldoc?MooseX::Method::Signatures).
+in [MooseX::Method::Signatures](https://metacpan.org/pod/MooseX::Method::Signatures).
 
 For the `around` modifier an additional argument called `$orig` is
 automatically set up as the invocant for the method.
@@ -192,32 +192,32 @@ imports, have a look at the `clean` keyword and the `dirty` trait.
 
 # WARNING
 
-__Warning:__ MooseX::Declare is based on [Devel::Declare](http://search.cpan.org/perldoc?Devel::Declare), a giant bag of crack
+__Warning:__ MooseX::Declare is based on [Devel::Declare](https://metacpan.org/pod/Devel::Declare), a giant bag of crack
 originally implemented by mst with the goal of upsetting the perl core
 developers so much by its very existence that they implemented proper
 keyword handling in the core.
 
 As of perl5 version 14, this goal has been achieved, and modules such
-as [Devel::CallParser](http://search.cpan.org/perldoc?Devel::CallParser), [Function::Parameters](http://search.cpan.org/perldoc?Function::Parameters), and [Keyword::Simple](http://search.cpan.org/perldoc?Keyword::Simple) provide
+as [Devel::CallParser](https://metacpan.org/pod/Devel::CallParser), [Function::Parameters](https://metacpan.org/pod/Function::Parameters), and [Keyword::Simple](https://metacpan.org/pod/Keyword::Simple) provide
 mechanisms to mangle perl syntax that don't require hallucinogenic
 drugs to interpret the error messages they produce.
 
 If you want to use declarative syntax in new code, please for the love
-of kittens get yourself a recent perl and look at [Moops](http://search.cpan.org/perldoc?Moops) instead.
+of kittens get yourself a recent perl and look at [Moops](https://metacpan.org/pod/Moops) instead.
 
 # SEE ALSO
 
-- [Moose](http://search.cpan.org/perldoc?Moose)
-- [Moose::Role](http://search.cpan.org/perldoc?Moose::Role)
-- [MooseX::Method::Signatures](http://search.cpan.org/perldoc?MooseX::Method::Signatures)
-- [namespace::autoclean](http://search.cpan.org/perldoc?namespace::autoclean)
-- vim syntax: [http://www.vim.org/scripts/script.php?script\_id=2526](http://www.vim.org/scripts/script.php?script\_id=2526)
+- [Moose](https://metacpan.org/pod/Moose)
+- [Moose::Role](https://metacpan.org/pod/Moose::Role)
+- [MooseX::Method::Signatures](https://metacpan.org/pod/MooseX::Method::Signatures)
+- [namespace::autoclean](https://metacpan.org/pod/namespace::autoclean)
+- vim syntax: [http://www.vim.org/scripts/script.php?script_id=2526](http://www.vim.org/scripts/script.php?script_id=2526)
 - emacs syntax: [http://github.com/jrockway/cperl-mode](http://github.com/jrockway/cperl-mode)
 - Geany syntax + notes: [http://www.cattlegrid.info/blog/2009/09/moosex-declare-geany-syntax.html](http://www.cattlegrid.info/blog/2009/09/moosex-declare-geany-syntax.html)
-- [Devel::CallParser](http://search.cpan.org/perldoc?Devel::CallParser)
-- [Function::Parameters](http://search.cpan.org/perldoc?Function::Parameters)
-- [Keyword::Simple](http://search.cpan.org/perldoc?Keyword::Simple)
-- [Moops](http://search.cpan.org/perldoc?Moops)
+- [Devel::CallParser](https://metacpan.org/pod/Devel::CallParser)
+- [Function::Parameters](https://metacpan.org/pod/Function::Parameters)
+- [Keyword::Simple](https://metacpan.org/pod/Keyword::Simple)
+- [Moops](https://metacpan.org/pod/Moops)
 
 # AUTHOR
 

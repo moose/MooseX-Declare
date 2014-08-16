@@ -1,3 +1,6 @@
+/.ackrc
 /.build/
-!.gitignore
-/MooseX-Declare-*
+!/.gitignore
+/.latest
+/MooseX-Declare-*/
+/MooseX-Declare-*.tar.gz

@@ -3,6 +3,7 @@ use warnings;
 
 package MooseX::Declare;
 # ABSTRACT: Declarative syntax for Moose
+# KEYWORDS: moose extension declaration syntax sugar method class
 
 use aliased 'MooseX::Declare::Syntax::Keyword::Class',      'ClassKeyword';
 use aliased 'MooseX::Declare::Syntax::Keyword::Role',       'RoleKeyword';

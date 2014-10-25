@@ -1,4 +1,5 @@
-package MooseX::Declare::Syntax::MethodDeclaration::Parameterized;
+package # hide from PAUSE
+    MooseX::Declare::Syntax::MethodDeclaration::Parameterized;
 
 use Moose::Role;
 use MooseX::Role::Parameterized 0.12 ();

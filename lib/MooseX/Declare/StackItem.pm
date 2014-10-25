@@ -1,4 +1,5 @@
-package MooseX::Declare::StackItem;
+package # hide from PAUSE
+    MooseX::Declare::StackItem;
 
 use Moose;
 

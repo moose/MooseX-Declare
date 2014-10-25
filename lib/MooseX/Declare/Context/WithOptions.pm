@@ -1,4 +1,5 @@
-package MooseX::Declare::Context::WithOptions;
+package # hide from PAUSE
+    MooseX::Declare::Context::WithOptions;
 
 use Moose::Role;
 use Carp qw/croak/;

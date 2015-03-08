@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package MooseX::Declare;
-# ABSTRACT: DEPRECATED: Declarative syntax for Moose
+# ABSTRACT: (DEPRECATED) Declarative syntax for Moose
 # KEYWORDS: moose extension declaration syntax sugar method class deprecated
 
 use aliased 'MooseX::Declare::Syntax::Keyword::Class',      'ClassKeyword';

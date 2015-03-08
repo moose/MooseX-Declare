@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - mark this distribution as deprecated in metadata
 
 0.40      2014-11-12 02:27:58Z
   - mention deprecation status in module ABSTRACT

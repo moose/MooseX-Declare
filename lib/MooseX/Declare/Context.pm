@@ -9,7 +9,7 @@ use Carp qw/croak/;
 
 use aliased 'Devel::Declare::Context::Simple', 'DDContext';
 
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

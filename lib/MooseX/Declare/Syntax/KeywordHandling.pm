@@ -13,7 +13,7 @@ use Module::Runtime 'use_module';
 
 use aliased 'MooseX::Declare::Context';
 
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

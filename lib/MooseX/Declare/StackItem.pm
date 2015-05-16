@@ -5,7 +5,7 @@ our $VERSION = '0.41';
 
 use Moose;
 
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 use overload '""' => 'as_string', fallback => 1;
 
 has identifier => (

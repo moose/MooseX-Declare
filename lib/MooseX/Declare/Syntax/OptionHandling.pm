@@ -4,10 +4,8 @@ package MooseX::Declare::Syntax::OptionHandling;
 our $VERSION = '0.41';
 
 use Moose::Role;
-
 use Carp qw( croak );
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

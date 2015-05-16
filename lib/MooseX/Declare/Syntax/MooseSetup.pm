@@ -13,7 +13,7 @@ use aliased 'MooseX::Declare::Syntax::Keyword::Method';
 use aliased 'MooseX::Declare::Syntax::Keyword::With', 'WithKeyword';
 use aliased 'MooseX::Declare::Syntax::Keyword::Clean', 'CleanKeyword';
 
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

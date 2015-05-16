@@ -4,8 +4,7 @@ package MooseX::Declare::Syntax::EmptyBlockIfMissing;
 our $VERSION = '0.41';
 
 use Moose::Role;
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

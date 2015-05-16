@@ -4,10 +4,8 @@ package MooseX::Declare::Syntax::RoleApplication;
 our $VERSION = '0.41';
 
 use Moose::Role;
-
 use aliased 'MooseX::Declare::Context::Namespaced';
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

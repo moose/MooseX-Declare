@@ -4,11 +4,9 @@ package MooseX::Declare::Syntax::Keyword::Clean;
 our $VERSION = '0.41';
 
 use Moose;
-
 use constant NAMESPACING_ROLE => 'MooseX::Declare::Syntax::NamespaceHandling';
 use Carp qw( cluck );
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

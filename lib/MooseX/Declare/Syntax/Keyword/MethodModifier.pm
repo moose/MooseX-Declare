@@ -6,8 +6,7 @@ our $VERSION = '0.41';
 use Moose;
 use Moose::Util;
 use Moose::Util::TypeConstraints;
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

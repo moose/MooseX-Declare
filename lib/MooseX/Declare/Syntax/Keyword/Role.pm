@@ -11,7 +11,7 @@ use aliased 'Parse::Method::Signatures::Param::Placeholder';
 use aliased 'MooseX::Declare::Context::Parameterized', 'ParameterizedCtx';
 use aliased 'MooseX::Declare::Syntax::MethodDeclaration::Parameterized', 'ParameterizedMethod';
 
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 CONSUMES
 

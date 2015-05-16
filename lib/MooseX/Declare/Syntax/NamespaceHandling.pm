@@ -13,7 +13,7 @@ use aliased 'MooseX::Declare::Context::WithOptions';
 use aliased 'MooseX::Declare::Context::Parameterized';
 use aliased 'MooseX::Declare::StackItem';
 
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

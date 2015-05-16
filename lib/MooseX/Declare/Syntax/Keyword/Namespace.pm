@@ -5,10 +5,8 @@ our $VERSION = '0.41';
 
 use Moose;
 use Carp qw( confess );
-
 use MooseX::Declare::Util qw( outer_stack_push outer_stack_peek );
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 SYNOPSIS
 

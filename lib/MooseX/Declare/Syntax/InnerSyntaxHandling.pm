@@ -4,10 +4,8 @@ package MooseX::Declare::Syntax::InnerSyntaxHandling;
 our $VERSION = '0.41';
 
 use Moose::Role;
-
 use MooseX::Declare::Util qw( outer_stack_push );
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 =head1 DESCRIPTION
 

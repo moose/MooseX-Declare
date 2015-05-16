@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::EmptyBlockIfMissing;
 # ABSTRACT: Handle missing blocks after keywords
 
+our $VERSION = '0.41';
+
 use Moose::Role;
 
 use namespace::clean -except => 'meta';

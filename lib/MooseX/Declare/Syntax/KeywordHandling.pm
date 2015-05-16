@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::KeywordHandling;
 # ABSTRACT: Basic keyword functionality
 
+our $VERSION = '0.41';
+
 use Moose::Role;
 use Moose::Util::TypeConstraints;
 use Devel::Declare ();

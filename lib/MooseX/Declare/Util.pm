@@ -4,6 +4,8 @@ use warnings;
 package MooseX::Declare::Util;
 # ABSTRACT: Common declarative utility functions
 
+our $VERSION = '0.41';
+
 use Sub::Exporter -setup => {
     exports => [qw(
         outer_stack_push

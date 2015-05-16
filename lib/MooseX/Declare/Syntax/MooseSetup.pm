@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::MooseSetup;
 # ABSTRACT: Common Moose namespaces declarations
 
+our $VERSION = '0.41';
+
 use Moose::Role;
 
 use Moose::Util  qw( find_meta );

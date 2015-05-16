@@ -1,6 +1,8 @@
 package MooseX::Declare::Context::Parameterized;
 # ABSTRACT: context for parsing optionally parameterized statements
 
+our $VERSION = '0.41';
+
 use Moose::Role;
 use MooseX::Types::Moose qw/Str HashRef/;
 

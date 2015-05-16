@@ -5,6 +5,8 @@ package MooseX::Declare;
 # ABSTRACT: (DEPRECATED) Declarative syntax for Moose
 # KEYWORDS: moose extension declaration syntax sugar method class deprecated
 
+our $VERSION = '0.41';
+
 use aliased 'MooseX::Declare::Syntax::Keyword::Class',      'ClassKeyword';
 use aliased 'MooseX::Declare::Syntax::Keyword::Role',       'RoleKeyword';
 use aliased 'MooseX::Declare::Syntax::Keyword::Namespace',  'NamespaceKeyword';

@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::Extending;
 # ABSTRACT: Extending with superclasses
 
+our $VERSION = '0.41';
+
 use Moose::Role;
 
 use aliased 'MooseX::Declare::Context::Namespaced';

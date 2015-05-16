@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::NamespaceHandling;
 # ABSTRACT: Handle namespaced blocks
 
+our $VERSION = '0.41';
+
 use Moose::Role;
 use Moose::Util qw( does_role );
 use MooseX::Declare::Util qw( outer_stack_peek );

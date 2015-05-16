@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::Keyword::Role;
 # ABSTRACT: Role declarations
 
+our $VERSION = '0.41';
+
 use Moose;
 use Moose::Util qw(does_role find_meta);
 use aliased 'Parse::Method::Signatures' => 'PMS';

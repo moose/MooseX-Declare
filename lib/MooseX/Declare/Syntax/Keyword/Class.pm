@@ -1,6 +1,8 @@
 package MooseX::Declare::Syntax::Keyword::Class;
 # ABSTRACT: Class declarations
 
+our $VERSION = '0.41';
+
 use Moose;
 
 use namespace::clean -except => 'meta';

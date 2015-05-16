@@ -1,6 +1,8 @@
 package # hide from PAUSE
     MooseX::Declare::StackItem;
 
+our $VERSION = '0.41';
+
 use Moose;
 
 use namespace::clean -except => 'meta';

@@ -4,7 +4,7 @@ package MooseX::Declare::Syntax::KeywordHandling;
 our $VERSION = '0.41';
 
 use Moose::Role;
-use Moose::Util::TypeConstraints;
+use Moose::Util::TypeConstraints qw(subtype as where);
 use Devel::Declare ();
 use Sub::Install qw( install_sub );
 use Moose::Meta::Class ();

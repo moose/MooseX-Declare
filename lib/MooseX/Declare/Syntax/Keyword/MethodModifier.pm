@@ -5,7 +5,7 @@ our $VERSION = '0.41';
 
 use Moose;
 use Moose::Util;
-use Moose::Util::TypeConstraints;
+use Moose::Util::TypeConstraints 'enum';
 use namespace::autoclean;
 
 =head1 DESCRIPTION

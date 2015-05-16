@@ -4,7 +4,7 @@ package MooseX::Declare::Context;
 our $VERSION = '0.41';
 
 use Moose 0.90;
-use Moose::Util::TypeConstraints;
+use Moose::Util::TypeConstraints qw(subtype as where);
 use Carp qw/croak/;
 
 use aliased 'Devel::Declare::Context::Simple', 'DDContext';

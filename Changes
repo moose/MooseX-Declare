@@ -1,6 +1,7 @@
 Revision history for MooseX-Declare
 
 {{$NEXT}}
+  - eliminate remaining uses of List::MoreUtils
 
 0.41      2015-05-16 03:35:49Z
   - mark this distribution as deprecated in metadata

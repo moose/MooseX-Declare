@@ -7,7 +7,7 @@ use Moose;
 use Moose::Util;
 use MooseX::Declare::Util qw( outer_stack_peek );
 use aliased 'MooseX::Declare::Context::Namespaced';
-use namespace::autoclean 0.09;
+use namespace::autoclean;
 
 =head1 SYNOPSIS
 

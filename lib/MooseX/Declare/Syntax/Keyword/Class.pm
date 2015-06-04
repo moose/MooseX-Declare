@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::Keyword::Class;
 # ABSTRACT: Class declarations
 
-our $VERSION = '0.42';
+our $VERSION = '0.43';
 
 use Moose;
 use namespace::autoclean;

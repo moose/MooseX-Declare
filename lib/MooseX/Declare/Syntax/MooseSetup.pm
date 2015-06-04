@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::MooseSetup;
 # ABSTRACT: Common Moose namespaces declarations
 
-our $VERSION = '0.42';
+our $VERSION = '0.43';
 
 use Moose::Role;
 

@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::OptionHandling;
 # ABSTRACT: Option parser dispatching
 
-our $VERSION = '0.42';
+our $VERSION = '0.43';
 
 use Moose::Role;
 use Carp qw( croak );

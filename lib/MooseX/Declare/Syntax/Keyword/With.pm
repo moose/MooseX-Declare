@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::Keyword::With;
 # ABSTRACT: Apply roles within a class- or role-body
 
-our $VERSION = '0.42';
+our $VERSION = '0.43';
 
 use Moose;
 use Moose::Util;

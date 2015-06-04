@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::NamespaceHandling;
 # ABSTRACT: Handle namespaced blocks
 
-our $VERSION = '0.42';
+our $VERSION = '0.43';
 
 use Moose::Role;
 use Moose::Util qw( does_role );

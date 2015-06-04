@@ -1,6 +1,6 @@
 Revision history for MooseX-Declare
 
-{{$NEXT}}
+0.42      2015-06-04 06:17:43Z
   - eliminate remaining uses of List::MoreUtils
   - increase required version of namespace::autoclean to 0.16 to avoid test
     failures

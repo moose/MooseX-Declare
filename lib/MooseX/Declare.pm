@@ -11,7 +11,7 @@ use aliased 'MooseX::Declare::Syntax::Keyword::Class',      'ClassKeyword';
 use aliased 'MooseX::Declare::Syntax::Keyword::Role',       'RoleKeyword';
 use aliased 'MooseX::Declare::Syntax::Keyword::Namespace',  'NamespaceKeyword';
 
-use namespace::clean 0.11;
+use namespace::clean 0.19;
 
 sub import {
     my ($class, %args) = @_;

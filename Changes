@@ -1,6 +1,7 @@
 Revision history for MooseX-Declare
 
 {{$NEXT}}
+  - add some diagnostics to a test that is failing occasionally
 
 0.42      2015-06-04 06:17:43Z
   - eliminate remaining uses of List::MoreUtils

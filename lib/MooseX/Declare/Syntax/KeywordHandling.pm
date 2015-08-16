@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::KeywordHandling;
 # ABSTRACT: Basic keyword functionality
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose::Role;
 use Moose::Util::TypeConstraints qw(subtype as where);

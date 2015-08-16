@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::Keyword::MethodModifier;
 # ABSTRACT: Handle method modifier declarations
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose;
 use Moose::Util;

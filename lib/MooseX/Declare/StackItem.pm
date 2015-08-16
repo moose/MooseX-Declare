@@ -1,7 +1,7 @@
 package # hide from PAUSE
     MooseX::Declare::StackItem;
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose;
 

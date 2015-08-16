@@ -1,5 +1,7 @@
 Revision history for MooseX-Declare
 
+{{$NEXT}}
+
 0.43      2015-08-16 03:29:28Z
   - add some diagnostics to a test that is failing occasionally
 

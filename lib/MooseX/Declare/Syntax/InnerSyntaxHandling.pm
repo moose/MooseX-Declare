@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::InnerSyntaxHandling;
 # ABSTRACT: Keywords inside blocks
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose::Role;
 use MooseX::Declare::Util qw( outer_stack_push );

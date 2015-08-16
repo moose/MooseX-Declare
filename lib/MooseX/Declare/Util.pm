@@ -4,7 +4,7 @@ use warnings;
 package MooseX::Declare::Util;
 # ABSTRACT: Common declarative utility functions
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Sub::Exporter -setup => {
     exports => [qw(

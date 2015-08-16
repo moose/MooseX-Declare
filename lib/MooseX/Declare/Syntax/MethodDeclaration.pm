@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::MethodDeclaration;
 # ABSTRACT: Handles method declarations
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose::Role;
 use MooseX::Method::Signatures::Meta::Method;

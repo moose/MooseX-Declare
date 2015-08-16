@@ -1,7 +1,7 @@
 package MooseX::Declare::Syntax::Keyword::Namespace;
 # ABSTRACT: Declare outer namespace
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose;
 use Carp qw( confess );

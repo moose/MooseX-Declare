@@ -1,7 +1,7 @@
 package # hide from PAUSE
     MooseX::Declare::Context::WithOptions;
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose::Role;
 use Carp qw/croak/;

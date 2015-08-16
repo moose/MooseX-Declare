@@ -1,7 +1,7 @@
 package MooseX::Declare::Context;
 # ABSTRACT: Per-keyword declaration context
 
-our $VERSION = '0.43';
+our $VERSION = '0.44';
 
 use Moose 0.90;
 use Moose::Util::TypeConstraints qw(subtype as where);

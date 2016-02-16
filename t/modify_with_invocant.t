@@ -1,4 +1,4 @@
-use Test::More;
+use Test::More 0.88;
 use MooseX::Declare;
 
 class Foo {

@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More;
+use Test::More 0.88;
 
 BEGIN {
     plan skip_all => '5.10.1 required for this test, due to a perl bug'

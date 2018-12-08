@@ -349,4 +349,5 @@ sub strip_word {
 
 =cut
 
+__PACKAGE__->meta->make_immutable;
 1;

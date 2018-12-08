@@ -4,7 +4,7 @@ use Test::More 0.88;
 
 BEGIN {
     plan skip_all => '5.10.1 required for this test, due to a perl bug'
-        if $] < 5.010001;
+        if "$]" < 5.010001;
 }
 
 use MooseX::Declare;
